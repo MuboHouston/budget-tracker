@@ -31,17 +31,19 @@
             "src": "/public/icons/icon-152x152.png",
             "type": "image/png",
             "sizes": "152x152" 
-        }, {
+        }, 
+        {
             "src": "/public/icons/icon-192x192.png",
             "type": "image/png",
             "sizes": "192x192" 
-        }, {
+        }, 
+        {
             "src": "/public/icons/icon-384x384.png",
             "type": "image/png",
             "sizes": "384x384" 
         }
     ],
-    "start_url": "public/index.html",
+    "start_url": "https://boiling-inlet-27031.herokuapp.com/",
     "background_color": "#bf587c",
     "display": "standalone",
     "theme_color": "#ffffff",
