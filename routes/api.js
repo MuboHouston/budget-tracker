@@ -8,18 +8,21 @@ router.post("/api/transaction", ({body}, res) => {
     })
     .catch(err => {
       console.log(err)
-      saveRecord(formData)
+      saveRecord(body)
     });
 });
 
 router.post("/api/transaction/bulk", ({body}, res) => {
+  const formData = body;
+  console.log(formData)
+
   Transaction.insertMany(body)
     .then(dbTransaction => {
       res.json(dbTransaction);
     })
     .catch(err => {
       console.log(err)
-      saveRecord(formData)
+      saveRecord(body)
     });
 });
 
