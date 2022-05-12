@@ -1,7 +1,7 @@
 # Budget Tracker
 
 ## Description
-This is a Progress Web Application (PWA) that allows users to keep track of their finances. Users are able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total is updated when they return back online. This application uses HTML, CSS, JavaScript, IndexedDB, MongoDB, and Express.js.
+This is a Progress Web Application (PWA) that allows users to keep track of their finances. Users are able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total is updated when they return online. This application uses HTML, CSS, JavaScript, IndexedDB, MongoDB, and Express.js.
 
 ## User Story 
 ```
